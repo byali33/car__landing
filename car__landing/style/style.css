@@ -1,0 +1,430 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.main img{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.main__right{
+    float: right;
+    margin-top: 20px;
+    margin-right: 110px;
+   
+}
+
+.main__right select{
+background-color:lightgrey;
+color: #fff;
+padding: 10px;
+border: none;
+outline: none;
+}
+
+.main__right button{
+    background-color: crimson;
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid crimson;
+    cursor: pointer;
+    transition: .4s;
+    
+}
+
+.main__right button:hover{
+    background-color: #fff;
+    color:red;
+}
+
+.main__content{
+    color: #fff;
+    margin-top: 200px;
+}
+
+.main__content img{
+    margin-left: 230px;
+}
+
+.main__content h4{
+    margin-left: 230px;
+    font-size: 40px;
+    font-family:sans-serif;
+}
+
+.main__content p{
+    margin-left: 230px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color:darkgrey;
+    font-size: 14px;
+}
+.main__content span{
+    margin-top: 90px;
+    color:darkred;
+    font-size: 14px;
+}
+
+.main__content span img{
+    width: 80px;
+    margin-right: 20px;
+    
+   
+}
+
+.content{
+    height: 100vmax;
+}
+
+.redlogo1 img:first-child{
+    width: 180px;
+    margin-left: 180px;
+    margin-top: 170px;
+}
+
+.redlogo1 img:last-child{
+    width: 300px;
+    position: absolute;
+    margin-left: -110px;
+    margin-top: 115px;
+   
+}
+
+.content__right{
+    margin-left: 650px;
+    margin-top: -440px;
+}
+
+.content__right p:first-child{
+    color: red;
+    font-size: 12px;
+}
+
+.content__right img{
+    width: 60px;
+
+}
+
+.content__right h1{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.content__right p:last-child{
+    margin-right: 300px;
+    font-size: 14px;
+    line-height: 30px;
+    color: grey;
+}
+
+.content__left{
+    margin-top: 240px;
+    margin-left: 250px;
+}
+
+.content__left p:first-child{
+    color: red;
+    font-size: 11px;
+
+}
+
+.content__left img{
+    width: 60px;
+}
+
+.content__left h1{
+    margin-top: 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+.content__left p:last-child{
+    margin-right: 700px;
+    line-height: 30px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.red{
+    background-color: red;
+    width: 600px;
+    height: 140px;
+    margin-top: 60px;
+    margin-left: 250px;
+    z-index: -1;
+}
+
+.red button{
+    padding: 10px 20px;
+    color: gray;
+    border: none;
+    margin-top: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.red button:hover{
+background-color:#000;
+color:#fff;
+}
+
+.black{
+    background-color: black;
+    height: 250px;
+    margin-top: -30px;
+
+}
+
+.section img{
+    width: 500px;
+    float: right;
+    margin-top: -700px;
+}
+
+.black2{
+    background-color:rgb(22, 21, 21);
+    width: 700px;
+    height: 200px;
+    float: right;
+    margin-right: 170px;
+    margin-top: -320px;
+}
+
+.black2 img:first-child{
+    width: 260px;
+    margin-top: 27px;
+    margin-right: 430px;
+}
+
+.black2 img:last-child{
+    width: 260px;
+    margin-top: -145px;
+    margin-right: 120px;
+}
+
+.footer{
+    height: 100vh;
+}
+
+.engine{
+    height: 80vh;
+    margin-top: -61px;
+      
+}
+
+.engine__left{
+    height:80vh ;
+    background-image:linear-gradient(rgba(187,187,187,0.5)50%, rgba(187, 187, 187, 0.5) 50%), url(/img/Image\ 11.jpg);
+    background-position: left;
+    background-size: 890px;
+    background-repeat: no-repeat;
+    margin-left: -280px;
+    margin-top: 30px;
+   
+}
+
+.engine__left img:first-child{
+    width: 700px;
+    height: 250px;
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+.engine__left img:last-child{
+    margin-left: -380px;
+    margin-bottom: 110px;
+    width: 250px;
+}
+
+.engine__right{
+    margin-left: 700px;
+    margin-top: -400px;
+}
+
+.master{
+    color: red;
+    font-size: 12px;
+}
+
+.engine__right img{
+    width: 60px;
+}
+
+.engine__right h1{
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.text{
+    color: gray;
+    line-height: 30px;
+    margin-right: 200px;
+    font-size: 12px;
+    
+}
+
+#m{
+margin-top: 30px;
+}
+
+
+#m p{
+    line-height: 30px;
+   color: gray;
+}
+
+#m p span{
+    color: red;
+    font-weight: bold;
+}
+
+.footer__content{
+    height: 100vh;
+}
+
+.footer__content .m2{
+  background-image: url(/img/16.png);
+  background-size: cover;
+  background-position:center ;
+  height:65vh;
+  
+}
+
+.m2 img{
+    width: 100%;
+}
+
+.m3{
+    position: absolute;
+    margin-top:-300px ;
+    margin-left: 300px;
+}
+
+.m3 img{
+    width: 120px;
+}
+
+.m3 h1{
+    font-family: sans-serif;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.m3 p{
+    margin-top: 15px;
+    color: gray;
+    margin-right: 800px;
+    font-size: 12px;
+}
+
+.m3 button{
+    background-color:red;
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid red;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.m3 button:hover{
+color: red;
+background-color: #fff;
+}
+
+.social{
+    color: gray;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+.social span i{
+margin-right: 40px;
+cursor: pointer;
+transition: transform .4s;
+
+}
+
+.social span i:hover{
+    color: red;
+    transform: scale(2.2);
+}
+
+.social p{
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.tel{
+    width: 420px;
+    height: 420px;
+    background-color: #000;
+    position:absolute;
+    margin-top: -450px;
+    margin-left: 670px;
+    color: #fff;
+
+}
+
+.tel div{
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+
+.tel input{
+    padding: 15px 50px;
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid red;
+    cursor: pointer;
+    margin-left: 120px;
+   
+}
+
+.tel p{
+    font-size: 10px;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.tel i{
+    color: #000;
+    background-color: #fff;
+    padding: 16px;
+    margin-left: 120px;
+    position: absolute;
+    margin-top: 1px;
+    
+    
+}
+
+
+
+    
+  
+
+
